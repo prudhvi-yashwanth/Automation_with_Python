@@ -1,0 +1,115 @@
+# ===============================
+# 1. Virtual Environments
+# ===============================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ===============================
+# 2. Python bytecode & cache
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+
+# ===============================
+# 3. Distribution / Packaging
+# ===============================
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ===============================
+# 4. Test & Coverage reports
+# ===============================
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.log
+
+# ===============================
+# 5. Environment / Secrets
+# ===============================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.crt
+secrets.yaml
+config.local.*
+
+# ===============================
+# 6. IDE & OS files
+# ===============================
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# IntelliJ / PyCharm
+.idea/
+*.iml
+*.iws
+.workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ===============================
+# 7. Database & Data files
+# ===============================
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+
+# ===============================
+# 8. Jupyter Notebooks (optional)
+# ===============================
+# .ipynb_checkpoints
+# *.ipynb
+# (Uncomment above if you don't want to commit notebooks at all)
+
+# ===============================
+# 9. Terraform / AWS specific (since you mentioned AWS)
+# ===============================
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+# AWS SAM / CDK
+.cdk.staging/
+cdk.out/
+sam-build/
