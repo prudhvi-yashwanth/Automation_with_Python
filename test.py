@@ -51,3 +51,17 @@ def swapping_numbers(num1,num2):
 num1, num2 = swapping_numbers(user_input1, user_input2)
 print(f"Numbers after swapped are: {num1}, {num2}")
 
+
+##################################################################
+def fibonacci_numbers(n):
+  seq = [0,1]
+  for _ in range(2, n):
+    seq.append(seq[-1] + seq[-2])
+  return seq[:n]
+
+print(fibonacci_numbers(10))
+print(fibonacci_numbers(0))
+
+##################################################################
+
+
